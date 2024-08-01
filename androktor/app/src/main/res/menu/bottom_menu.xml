@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/companiesFragment"
+        android:icon="@drawable/baseline_apartment_24"
+        android:title="@string/companies_menu" />
+
+    <item
+        android:id="@+id/vacanciesFragment"
+        android:icon="@drawable/baseline_assignment_24"
+        android:title="@string/vacancies_menu" />
+
+</menu>

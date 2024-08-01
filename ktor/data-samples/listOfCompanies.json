@@ -1,0 +1,220 @@
+{
+  "listOfCompanies": [
+    {
+      "id": 1,
+      "name": "OOO SuperPay",
+      "field_of_activity": "banking",
+      "vacancies": [
+        {
+          "id": 1,
+          "company": "OOO SuperPay",
+          "company_id": 1,
+          "profession": "qa",
+          "level": "middle",
+          "salary": 80000
+        },
+        {
+          "id": 2,
+          "company": "OOO SuperPay",
+          "company_id": 1,
+          "profession": "pm",
+          "level": "senior",
+          "salary": 130000
+        }
+      ],
+      "contacts": "79815354235"
+    },
+    {
+      "id": 2,
+      "name": "MTM",
+      "field_of_activity": "banking",
+      "vacancies": [
+        {
+          "id": 3,
+          "company": "MTM",
+          "company_id": 2,
+          "profession": "designer",
+          "level": "senior",
+          "salary": 150000
+        }
+      ],
+      "contacts": "+79152354834"
+    },
+    {
+      "id": 3,
+      "name": "CryptoSuperGo",
+      "field_of_activity": "banking",
+      "vacancies": [
+        {
+          "id": 4,
+          "company": "CryptoSuperGo",
+          "company_id": 3,
+          "profession": "developer",
+          "level": "junior",
+          "salary": 90000
+        }
+      ],
+      "contacts": "84543215684"
+    },
+    {
+      "id": 4,
+      "name": "PlatiNalogi",
+      "field_of_activity": "public services",
+      "vacancies": [
+        {
+          "id": 5,
+          "company": "PlatiNalogi",
+          "company_id": 4,
+          "profession": "developer",
+          "level": "middle",
+          "salary": 150000
+        },
+        {
+          "id": 6,
+          "company": "PlatiNalogi",
+          "company_id": 4,
+          "profession": "designer",
+          "level": "middle",
+          "salary": 100000
+        },
+        {
+          "id": 7,
+          "company": "PlatiNalogi",
+          "company_id": 4,
+          "profession": "pm",
+          "level": "senior",
+          "salary": 160000
+        }
+      ],
+      "contacts": "88004846512"
+    },
+    {
+      "id": 5,
+      "name": "NeftGazIkra",
+      "field_of_activity": "public services",
+      "vacancies": [
+        {
+          "id": 8,
+          "company": "NeftGazIkra",
+          "company_id": 5,
+          "profession": "analyst",
+          "level": "junior",
+          "salary": 70000
+        }
+      ],
+      "contacts": "79485156458"
+    },
+    {
+      "id": 6,
+      "name": "OOO SoftForHomies",
+      "field_of_activity": "IT",
+      "vacancies": [
+        {
+          "id": 9,
+          "company": "OOO SoftForHomies",
+          "company_id": 6,
+          "profession": "PM",
+          "level": "middle",
+          "salary": 100000
+        },
+        {
+          "id": 10,
+          "company": "OOO SoftForHomies",
+          "company_id": 6,
+          "profession": "qa",
+          "level": "junior",
+          "salary": 60000
+        }
+      ],
+      "contacts": "89785455654"
+    },
+    {
+      "id": 7,
+      "name": "MobileGamesPro",
+      "field_of_activity": "IT",
+      "vacancies": [
+        {
+          "id": 11,
+          "company": "MobileGamesPro",
+          "company_id": 7,
+          "profession": "qa",
+          "level": "senior",
+          "salary": 130000
+        }
+      ],
+      "contacts": "+79845255456"
+    },
+    {
+      "id": 8,
+      "name": "FoodsAndGoods",
+      "field_of_activity": "public services",
+      "vacancies": [
+        {
+          "id": 12,
+          "company": "FoodsAndGoods",
+          "company_id": 8,
+          "profession": "designer",
+          "level": "middle",
+          "salary": 130000
+        },
+        {
+          "id": 13,
+          "company": "FoodsAndGoods",
+          "company_id": 8,
+          "profession": "developer",
+          "level": "junior",
+          "salary": 100000
+        },
+        {
+          "id": 14,
+          "company": "FoodsAndGoods",
+          "company_id": 8,
+          "profession": "analyst",
+          "level": "senior",
+          "salary": 150000
+        }
+      ],
+      "contacts": "+79876542125"
+    },
+    {
+      "id": 9,
+      "name": "VseIgry",
+      "field_of_activity": "IT",
+      "vacancies": [
+        {
+          "id": 15,
+          "company": "VseIgry",
+          "company_id": 9,
+          "profession": "developer",
+          "level": "senior",
+          "salary": 200000
+        },
+        {
+          "id": 16,
+          "company": "VseIgry",
+          "company_id": 9,
+          "profession": "designer",
+          "level": "senior",
+          "salary": 180000
+        }
+      ],
+      "contacts": "89615654485"
+    },
+    {
+      "id": 10,
+      "name": "ItBankingMax",
+      "field_of_activity": "banking",
+      "vacancies": [
+        {
+          "id": 17,
+          "company": "ItBankingMax",
+          "company_id": 10,
+          "profession": "qa",
+          "level": "senior",
+          "salary": 140000
+        }
+      ],
+      "contacts": "77778889811"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">androktor</string>
+    <string name="avatar_label">avatar</string>
+    <string name="vacancies_label">Vacancies</string>
+    <string name="description_label">Description:</string>
+    <string name="level_label">Required work experience:</string>
+    <string name="vacancies_menu">Vacancies</string>
+    <string name="companies_menu">Companies</string>
+    <string name="vacancy_details_label">Vacancy details</string>
+    <string name="company_details_label">Company details</string>
+    <string name="companies_label">Companies</string>
+    <string name="salary_label">Salary:</string>
+    <string name="my_resume_label">My resume</string>
+    <string name="navigate_label">Navigate</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="retry_label">Retry</string>
+    <string name="network_error">Network error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="copyright">© Artemiy Bokov - Lorderi</string>
+    <string name="resume_label">Would you like to resume editing?</string>
+    <string name="decline_label">no</string>
+    <string name="accept_label">yes</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="save_to_resume_label">Would you like to keep changes locally and resume editing later?</string>
+    <string name="favorite">favorite</string>
+</resources>

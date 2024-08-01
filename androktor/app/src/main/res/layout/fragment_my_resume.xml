@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.MyResumeFragment"
+    tools:ignore="HardcodedText">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Candidate info:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Name:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Name"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                tools:text="Vasiliev Sergei Petrovich" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Profession:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Profession"
+                android:hint="Profession"
+                android:inputType="text"
+                tools:text="QA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Sex:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Sex"
+                android:hint="Sex"
+                android:inputType="text"
+                tools:text="male" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Birth Date:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/birthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Birth date"
+                android:hint="Birth date"
+                android:inputType="date"
+                tools:text="30.09.1998" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Phone:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Birth date"
+                android:hint="Phone"
+                android:inputType="phone"
+                tools:text="72938572843" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Email:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Birth date"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                tools:text="vspetrovich@pochta.ru" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Relocation:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/relocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Relocation"
+                android:hint="Relocation"
+                android:inputType="none"
+                tools:text="possible" />
+
+            <!-- Education -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Education:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Type:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/educationType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Type"
+                android:hint="Type"
+                android:inputType="none"
+                tools:text="higher" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Year start:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/educationYearStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Year start"
+                android:hint="Year start"
+                android:inputType="date"
+                tools:text="2017" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Year end:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/educationYearEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Year end"
+                android:hint="Year end"
+                android:inputType="date"
+                tools:text="2021" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Description:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/educationDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Description"
+                android:hint="Description"
+                android:inputType="none"
+                tools:text="Mathematics in state university" />
+
+            <!-- Job Experience -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="none"
+                android:text="Job Experience:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="none"
+                android:text="Date Start:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/jobExperienceDateStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Date Start"
+                android:hint="Date Start"
+                android:inputType="date"
+                tools:text="08.2021" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="none"
+                android:text="Date End:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/jobExperienceDateEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Date End"
+                android:hint="Date End"
+                android:inputType="date"
+                tools:text="04.2022" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="none"
+                android:text="Company name:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/JobExperienceCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Company name"
+                android:hint="Company name"
+                android:inputType="none"
+                tools:text="FinTech" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:inputType="none"
+                android:text="Description:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/JobExperienceDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="Description"
+                android:hint="Description"
+                android:inputType="none"
+                tools:text="Some fintech company creating a business platform" />
+
+            <!-- Free Form -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Free Form:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/freeForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="Free Form"
+                android:hint="Free Form"
+                android:inputType="textMultiLine"
+                tools:text="I'm a QA specialist from head to heels. ..." />
+
+
+            <TextView
+                android:id="@+id/tags_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Tags:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="8sp"
+                android:text="..."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/actionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="32dp"
+        app:icon="@drawable/baseline_create_24" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

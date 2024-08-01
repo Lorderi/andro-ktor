@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/companiesFragment">
+
+    <fragment
+        android:id="@+id/companiesFragment"
+        android:name="ru.lorderi.androktor.ui.fragment.CompaniesFragment"
+        android:label="@string/companies_label"
+        tools:layout="@layout/fragment_companies" />
+    <fragment
+        android:id="@+id/vacanciesFragment"
+        android:name="ru.lorderi.androktor.ui.fragment.VacanciesFragment"
+        android:label="@string/vacancies_label"
+        tools:layout="@layout/fragment_vacancies" />
+</navigation>

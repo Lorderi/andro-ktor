@@ -1,0 +1,74 @@
+openapi: "3.0.3"
+info:
+  title: "Lorderi API"
+  description: "Lorderi API"
+  version: "1.0.0"
+servers:
+  - url: "http://127.0.0.1:8080"
+
+paths:
+  /api/companies:
+    get:
+      summary: "GET api/companies"
+      responses:
+        "200":
+          description: "OK"
+
+  /api/companies/{id}:
+    get:
+      summary: "GET api/companies/{id}"
+      parameters:
+        - name: "id"
+          in: "path"
+      responses:
+        "200":
+          description: "OK"
+
+  /api/resumes:
+    get:
+      summary: "GET api/resumes"
+      responses:
+        "200":
+          description: "OK"
+
+  /api/resumes/{id}:
+    post:
+      summary: "POST api/resumes/{id}"
+      parameters:
+        - name: "id"
+          in: "path"
+
+      responses:
+        "200":
+          description: "OK"
+
+
+  /api/resumes/{id}/tags:
+    get:
+      summary: "GET api/resumes/{id}/tags"
+      parameters:
+        - name: "id"
+          in: "path"
+      responses:
+        "200":
+          description: "OK"
+
+  /api/vacancies:
+    get:
+      summary: "GET api/vacancies"
+      responses:
+        "200":
+          description: "OK"
+
+  /api/vacancies/{id}:
+    get:
+      summary: "GET api/vacancies/{id}"
+      parameters:
+        - name: "id"
+          in: "path"
+      responses:
+        "200":
+          description: "OK"
+
+components:
+  schemas: { }
