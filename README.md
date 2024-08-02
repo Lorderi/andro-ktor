@@ -1,4 +1,4 @@
-# Android ESales
+# Android andro-ktor
 
 * Разработка серверной части с использованием Ktor:
 
